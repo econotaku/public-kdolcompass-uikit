@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  KdolCompass
+
+  Created by ECONOTAKU on 3/19/24.
+  
+*/
+
+
+//SETTING
+"privacyPolicy" = "kebijakan privasi";
+"removeAds" = "hapus iklan gratis";
+"watchVideoMessage" = "Satu tampilan iklan video menghapus iklan spanduk selama 24 jam. Apakah Anda ingin melihat iklan video?";
+"plusVideoAd" = "Menonton iklan video sekali lagi menambah 24 jam agar spanduk menghilang. Apakah Anda ingin melihat iklan video?";
+"noBannerUntil" = "No ads until ";
+
+//LIST
+"settingIdol" = "Apakah Anda ingin mengatur idola ini?";
+
+//MAP - info
+"info_0" = "Pengguna dapat memindahkan kamera dengan berbagai gerakan termasuk mengetuk, menyeret dan mencubit.";
+"info_1" = "• Gulung : Seret peta dengan satu atau lebih jari, dan kamera bergerak mengikuti jari-jari itu.";
+"info_2" = "• Zoom : ketuk dua kali peta, dan tingkat zoom peta meningkat satu tingkat. Dua jari ketuk peta, dan tingkat zoom menurun satu tingkat. Anda juga dapat menggunakan jepitan, peregangan, atau gerakan zoom satu jari untuk mengubah tingkat zoom peta.";
+"info_3" = "• Tilt : Tarik ke bawah atau ke atas peta dengan dua jari, dan sudut kemiringan peta berubah.";
+"info_4" = "• Rotasi : Putar peta dengan dua jari, dan sudut bantalan peta berubah.";
+
+//MAP - uniqueness
+"uniqueness" = "Karakteristik peta di mana semua perusahaan keluar.";
+"uniq_0" = "• PLEDIS dan KOZ, yang merupakan Anak Perusahaan HYBE, berada di gedung yang sama dengan HYBE, jadi hanya HYBE yang ditampilkan.";
+"uniq_1" = "• Jika Anda menyentuh penanda, Anda dapat mengaturnya sendiri dengan memasukkan nama.";
+"uniq_2" = "• Saya membuat penanda yang mengatakan Seoul jika orang yang Anda inginkan tidak ada dalam daftar. Penanda terletak di tengah Istana Gyeongbokgung, dan sentuh penanda untuk menetapkan orang yang Anda inginkan.";
+
+//MAP - all map alert
+"enterName" = "Masukkan nama untuk disimpan ke lokasi ini.";
+
+//SYSTEM
+"noInternet" = "Tidak bisa berjalan karena tidak ada koneksi internet.";
+
+//violation
+"violationMessage" = "Saya menonton iklan video sekali untuk melihat apakah itu berhasil. Itu melanggar aturan admob bagi pengembang untuk menonton iklan video. Jadi iklan akan diposting setelah tanggal yang tertera pada tombol.";

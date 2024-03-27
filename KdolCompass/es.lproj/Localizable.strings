@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  KdolCompass
+
+  Created by ECONOTAKU on 3/19/24.
+  
+*/
+
+
+//SETTING
+"privacyPolicy" = "Política de privacidad";
+"removeAds" = "eliminar anuncios gratis";
+"watchVideoMessage" = "Una vista de un anuncio de video elimina el anuncio de banner durante 24 horas. ¿Le gustaría ver un anuncio de video?";
+"plusVideoAd" = "Ver el anuncio de video una vez más agrega 24 horas para que desaparezca el banner. ¿Le gustaría ver un anuncio de vídeo?";
+"noBannerUntil" = "No ads until ";
+
+//LIST
+"settingIdol" = "¿Quieres poner este ídolo?";
+
+//MAP - info
+"info_0" = "Los usuarios pueden mover la cámara con varios gestos, como tocar, arrastrar y pellizcar.";
+"info_1" = "• Despliegue : Dragad el mapa con uno o más dedos y la cámara se mueve siguiendo esos dedos.";
+"info_2" = "• Zoom : toca dos veces el mapa y el nivel de zoom del mapa aumenta en un nivel. Toque el mapa con dos dedos y el nivel de zoom disminuye un nivel. También puede utilizar el gesto de pellizcar, estirar o acercar con un dedo para cambiar el nivel de zoom del mapa.";
+"info_3" = "• Inclina : Dragad hacia abajo o arriba el mapa con dos dedos, y el ángulo de inclinación del mapa se cambia.";
+"info_4" = "• Rotación : gira el mapa con dos dedos y se cambia el ángulo de rumbo del mapa.";
+
+//MAP - uniqueness
+"uniqueness" = "Las características del mapa donde salen todas las empresas.";
+"uniq_0" = "• PLEDIS y KOZ, que son la subsidiaria de HYBE, están en el mismo edificio que HYBE, por lo que solo se muestra HYBE.";
+"uniq_1" = "• Si toca un marcador, puede configurarlo usted mismo ingresando un nombre.";
+"uniq_2" = "• Hice un marcador que dice Seúl en caso de que la persona que busca no esté en la lista. El marcador se encuentra en el centro del Palacio Gyeongbokgung y toca el marcador para establecer la persona que deseas.";
+
+//MAP - all map alert
+"enterName" = "Ingrese un nombre para guardar en esta ubicación.";
+
+//SYSTEM
+"noInternet" = "No se puede ejecutar porque no hay conexión a Internet.";
+
+//violation
+"violationMessage" = "Una vez vi un anuncio de video para ver si funcionaba. Estaba en contra de las reglas de admob que los desarrolladores vieran anuncios de video. Por lo tanto, el anuncio se publicará después de la fecha indicada en el botón.";

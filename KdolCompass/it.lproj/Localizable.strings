@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  KdolCompass
+
+  Created by ECONOTAKU on 3/19/24.
+  
+*/
+
+
+//SETTING
+"privacyPolicy" = "politica sulla riservatezza";
+"removeAds" = "rimuovere gli annunci (gratuito)";
+"watchVideoMessage" = "Durante la visualizzazione di annunci video, gli annunci banner vengono rimossi per 24 ore. Vuoi vedere annunci video?";
+"plusVideoAd" = "Guardare l'annuncio video ancora una volta aggiunge 24 ore affinché il banner scompaia. Vuoi vedere un annuncio video?";
+"noBannerUntil" = "No ads until ";
+
+//LIST
+"settingIdol" = "Vuoi impostare questo idolo?";
+
+//MAP - info
+"info_0" = "Gli utenti possono spostare la fotocamera con vari gesti tra cui toccare, trascinare e pizzicare.";
+"info_1" = "• Scorri : trascina la mappa con una o più dita e la telecamera si sposta seguendo quelle dita.";
+"info_2" = "• Zoom : tocca due volte la mappa e il livello di zoom della mappa aumenta di un livello. Tocca la mappa con due dita e il livello di zoom diminuisce di un livello. Puoi anche pizzicare, allungare o ingrandire con un dito per modificare il livello di zoom della mappa.";
+"info_3" = "• Inclinazione : trascina la mappa verso il basso o verso l'alto con due dita e l'angolo di inclinazione della mappa viene modificato.";
+"info_4" = "• Rotazione : ruota la mappa con due dita e l'angolo di rilevamento della mappa viene modificato.";
+
+//MAP - uniqueness
+"uniqueness" = "TLe caratteristiche della mappa da cui escono tutte le aziende.";
+"uniq_0" = "• PLEDIS e KOZ, che sono la filiale di HYBE, si trovano nello stesso edificio di HYBE, quindi viene visualizzato solo HYBE.";
+"uniq_1" = "• Se tocchi un marcatore, puoi impostarlo tu stesso inserendo un nome.";
+"uniq_2" = "• Ho fatto un pennarello che dice Seoul nel caso in cui la persona che vuoi non sia nella lista. L'indicatore si trova al centro del Palazzo Gyeongbokgung e tocca l'indicatore per impostare la persona che desideri.";
+
+//MAP - all map alert
+"enterName" = "Inserisci un nome da salvare in questa posizione.";
+
+//SYSTEM
+"noInternet" = "Impossibile eseguire perché non c'è connessione a Internet.";
+
+//violation
+"violationMessage" = "Una volta ho guardato un annuncio video per vedere se funzionava. Era contro le regole di admob per gli sviluppatori guardare gli annunci video. Quindi l'annuncio verrà pubblicato dopo la data indicata sul pulsante.";

@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  KdolCompass
+
+  Created by ECONOTAKU on 3/19/24.
+  
+*/
+
+//Privacy
+NSLocationWhenInUseUsageDescription = "Нам нужно ваше местоположение, чтобы указать направление.";
+NSPhotoLibraryUsageDescription = "Требуется доступ к библиотеке для установки фото.";
+NSUserTrackingUsageDescription = "Этот идентификатор будет использоваться для показа вам персонализированной рекламы.";
+
+"CFBundleDisplayName" = "Kdol-Compass";
+"CFBundleName" = "Kdol-Compass";

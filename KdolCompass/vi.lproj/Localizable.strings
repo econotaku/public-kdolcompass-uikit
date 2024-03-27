@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  KdolCompass
+
+  Created by ECONOTAKU on 3/19/24.
+  
+*/
+
+
+//SETTING
+"privacyPolicy" = "Chính sách bảo mật";
+"removeAds" = "Nhấn để xóa quảng cáo miễn phí";
+"watchVideoMessage" = "Một lần xem quảng cáo video sẽ xóa quảng cáo biểu ngữ trong 24 giờ. Bạn có muốn xem một quảng cáo video không?";
+"plusVideoAd" = "Xem quảng cáo video thêm một lần nữa sẽ thêm 24 giờ để biểu ngữ biến mất. Bạn có muốn xem một quảng cáo video không?";
+"noBannerUntil" = "No ads until ";
+
+//LIST
+"settingIdol" = "Bạn có muốn đặt thần tượng này không?";
+
+//MAP - info
+"info_0" = "Người dùng có thể di chuyển máy ảnh bằng nhiều cử chỉ khác nhau bao gồm chạm, kéo và chụm.";
+"info_1" = "• Cuộn : Kéo bản đồ bằng một hoặc nhiều ngón tay và máy ảnh sẽ di chuyển.";
+"info_2" = "• Thu phóng : Nhấn đúp vào bản đồ và mức thu phóng của bản đồ tăng một cấp. Nhấn bằng hai ngón tay vào bản đồ và mức thu phóng giảm một mức. Bạn cũng có thể sử dụng cử chỉ chụm, duỗi hoặc thu phóng bằng một ngón tay để thay đổi mức thu phóng của bản đồ.";
+"info_3" = "• Nghiêng : Kéo xuống hoặc lên bản đồ bằng hai ngón tay và góc nghiêng của bản đồ được thay đổi.";
+"info_4" = "• Xoay : Xoay bản đồ bằng hai ngón tay và góc mang của bản đồ được thay đổi.";
+
+//MAP - uniqueness
+"uniqueness" = "Các đặc điểm của bản đồ nơi tất cả các công ty đi ra.";
+"uniq_0" = "• PLEDIS và KOZ, là Công ty con của HYBE, ở cùng tòa nhà với HYBE, vì vậy chỉ HYBE được hiển thị.";
+"uniq_1" = "• Nếu bạn chạm vào một điểm đánh dấu, bạn có thể tự đặt nó bằng cách nhập tên.";
+"uniq_2" = "• Tôi đã đánh dấu Seoul trong trường hợp người bạn muốn không có trong danh sách. Điểm đánh dấu nằm ở trung tâm Cung điện Gyeongbokgung và chạm vào điểm đánh dấu để đặt người bạn muốn.";
+
+//MAP - all map alert
+"enterName" = "Nhập tên để lưu vào vị trí này.";
+
+//SYSTEM
+"noInternet" = "Không thể chạy vì không có kết nối internet.";
+
+//violation
+"violationMessage" = "Tôi đã xem một quảng cáo video một lần để xem nó có hiệu quả không. Việc các nhà phát triển xem quảng cáo video là vi phạm các quy tắc của admob. Vì vậy, quảng cáo sẽ được đăng sau ngày ghi trên nút.";

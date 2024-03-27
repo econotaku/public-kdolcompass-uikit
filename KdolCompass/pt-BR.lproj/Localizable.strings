@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  KdolCompass
+
+  Created by ECONOTAKU on 3/19/24.
+  
+*/
+
+
+//SETTING
+"privacyPolicy" = "política de Privacidade";
+"removeAds" = "remover anúncios (grátis)";
+"watchVideoMessage" = "Uma exibição de um anúncio em vídeo remove o anúncio em banner por 24 horas. Você gostaria de ver um anúncio em vídeo?";
+"plusVideoAd" = "Assistir ao anúncio em vídeo mais uma vez adiciona 24 horas para que o banner desapareça. Gostaria de ver um anúncio em vídeo?";
+"noBannerUntil" = "No ads until ";
+
+//LIST
+"settingIdol" = "Você quer definir este ídolo?";
+
+//MAP - info
+"info_0" = "Os usuários podem mover a câmera com vários gestos, incluindo tocar, arrastar e beliscar.";
+"info_1" = "• Mover : Arraste o mapa com um ou mais dedos, e a câmera segue os dedos.";
+"info_2" = "• Zoom : toque duas vezes no mapa e o nível de zoom do mapa aumenta um nível. Toque com dois dedos no mapa e o nível de zoom diminui um nível. Você também pode usar gesto de pinça, alongamento ou zoom com um dedo para alterar o nível de zoom do mapa.";
+"info_3" = "• Inclinação : arraste o mapa para baixo ou para cima com dois dedos e o ângulo de inclinação do mapa será alterado.";
+"info_4" = "• Rotação : gire o mapa com dois dedos e o ângulo de orientação do mapa é alterado.";
+
+//MAP - uniqueness
+"uniqueness" = "As características do mapa onde todas as empresas";
+"uniq_0" = "• PLEDIS e KOZ, que são subsidiárias da HYBE, estão no mesmo prédio que HYBE, portanto, apenas HYBE é exibido.";
+"uniq_1" = "• Se você tocar em um marcador, poderá defini-lo inserindo um nome.";
+"uniq_2" = "• Fiz um marcador que diz Seul, caso a pessoa que você deseja não esteja na lista. O marcador está localizado no centro do Palácio Gyeongbokgung e toque no marcador para definir a pessoa desejada.";
+
+//MAP - all map alert
+"enterName" = "Digite um nome para salvar neste local.";
+
+//SYSTEM
+"noInternet" = "Não é possível executar porque não há conexão com a Internet.";
+
+//violation
+"violationMessage" = "Assisti a um anúncio em vídeo uma vez para ver se funcionava. Era contra as regras da admob os desenvolvedores assistirem a anúncios em vídeo. Assim, o anúncio será postado após a data indicada no botão.";

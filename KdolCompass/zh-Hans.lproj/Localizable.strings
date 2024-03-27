@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  KdolCompass
+
+  Created by ECONOTAKU on 3/19/24.
+  
+*/
+
+
+//SETTING
+"privacyPolicy" = "隐私政策";
+"removeAds" = "点按即可免费移除广告";
+"watchVideoMessage" = "视频广告的一次观看会移除横幅广告 24 小时。您想看视频广告吗？";
+"plusVideoAd" = "再看一次视频广告会增加 24 小时让横幅消失。您想看视频广告吗？";
+"noBannerUntil" = "No ads until ";
+
+//LIST
+"settingIdol" = "你想设定这个偶像吗？";
+
+//MAP - info
+"info_0" = "用户可以使用各种手势移动相机，包括点击、拖动和捏合。";
+"info_1" = "• 滚动 : 用一根或多根手指拖动地图，相机跟随这些手指移动。";
+"info_2" = "• 缩放 : 双击地图，地图缩放级别增加一级。两指点按地图，缩放级别降低一级。您还可以使用捏合、拉伸或单指缩放手势来更改地图的缩放级别。";
+"info_3" = "• 倾斜 : 用两根手指向下或向上拖动地图，改变地图的倾斜角度。";
+"info_4" = "• 旋转 : 使用两个手指旋转地图，更改地图的方位角。";
+
+//MAP - uniqueness
+"uniqueness" = "所有公司出来的地图的特征。";
+"uniq_0" = "• HYBE 的子公司 PLEDIS 和 KOZ 与 HYBE 位于同一建筑物内，因此仅显示 HYBE。";
+"uniq_1" = "• 如果触摸标记，则可以通过输入名称自行设置。";
+"uniq_2" = "• 我做了一个标记，上面写着首尔，以防你想要的人不在名单上。标记位于景福宫的中心，触摸标记设置您想要的人。";
+
+//MAP - all map alert
+"enterName" = "输入要保存到此位置的名称。";
+
+//SYSTEM
+"noInternet" = "无法运行，因为没有互联网连接。";
+
+//violation
+"violationMessage" = "我看过一次视频广告，看看它是否有效。开发者观看视频广告违反了admob的规则。因此，广告将在按钮上指示的日期之后发布。";

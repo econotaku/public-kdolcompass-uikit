@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		782A38162B9C5926002BAF6F /* CompassMiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A38152B9C5926002BAF6F /* CompassMiddleView.swift */; };
+		782A5F092BA189FD007934D5 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A5F082BA189FD007934D5 /* SettingsController.swift */; };
+		782A5F0C2BA1905B007934D5 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A5F0B2BA1905B007934D5 /* ListController.swift */; };
+		782A5F102BA19A0F007934D5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A5F0F2BA19A0F007934D5 /* Constants.swift */; };
+		782A5F122BA19A33007934D5 /* StarLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A5F112BA19A33007934D5 /* StarLocation.swift */; };
+		782A5F142BA1A0BA007934D5 /* SettingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A5F132BA1A0BA007934D5 /* SettingImageView.swift */; };
+		7853BBDB2B96F8C100DAF6BE /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853BBDA2B96F8C100DAF6BE /* UIViewController+Extension.swift */; };
+		7853BBDD2B96F97600DAF6BE /* SettingsIdolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853BBDC2B96F97600DAF6BE /* SettingsIdolView.swift */; };
+		7853BBDF2B96F9CF00DAF6BE /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853BBDE2B96F9CF00DAF6BE /* ProfileImageView.swift */; };
+		7853BBE12B96FB2A00DAF6BE /* IdolNameContaier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853BBE02B96FB2A00DAF6BE /* IdolNameContaier.swift */; };
+		7853BBE32B96FB7100DAF6BE /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853BBE22B96FB7100DAF6BE /* CircularProgressView.swift */; };
+		7853BBE72B96FC3200DAF6BE /* SettingsUnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853BBE62B96FC3200DAF6BE /* SettingsUnitView.swift */; };
+		7853BBE92B96FC8000DAF6BE /* CompassTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853BBE82B96FC8000DAF6BE /* CompassTopView.swift */; };
+		7853BBEB2B96FCCE00DAF6BE /* CompassBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853BBEA2B96FCCE00DAF6BE /* CompassBottomView.swift */; };
+		7886066E2BA30A910027FE9D /* UnitSelectTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7886066D2BA30A910027FE9D /* UnitSelectTitleView.swift */; };
+		788D844E2BA2D82400A78EFA /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788D844D2BA2D82400A78EFA /* MapController.swift */; };
+		788D84502BA2E16C00A78EFA /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788D844F2BA2E16C00A78EFA /* LocationDelegate.swift */; };
+		788D84522BA2E19D00A78EFA /* CLLocation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788D84512BA2E19D00A78EFA /* CLLocation+Extension.swift */; };
+		788D84542BA2E1CA00A78EFA /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788D84532BA2E1CA00A78EFA /* UserDefaults+Extensions.swift */; };
+		788D84562BA2E22100A78EFA /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788D84552BA2E22100A78EFA /* NetworkMonitor.swift */; };
+		78A4DD822B96EE18002C2342 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A4DD812B96EE18002C2342 /* AppDelegate.swift */; };
+		78A4DD842B96EE18002C2342 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A4DD832B96EE18002C2342 /* SceneDelegate.swift */; };
+		78A4DD862B96EE18002C2342 /* CompassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A4DD852B96EE18002C2342 /* CompassController.swift */; };
+		78A4DD8B2B96EE19002C2342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A4DD8A2B96EE19002C2342 /* Assets.xcassets */; };
+		78A4DD8E2B96EE19002C2342 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A4DD8C2B96EE19002C2342 /* LaunchScreen.storyboard */; };
+		78BBCC082BA972E60071A6C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78BBCC062BA972E60071A6C0 /* Localizable.strings */; };
+		78BBCC182BA975390071A6C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78BBCC162BA975390071A6C0 /* InfoPlist.strings */; };
+		78BBCC272BA978100071A6C0 /* CompassInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BBCC262BA978100071A6C0 /* CompassInfoController.swift */; };
+		78BBCC292BA978220071A6C0 /* MapInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BBCC282BA978220071A6C0 /* MapInfoController.swift */; };
+		78D21B662BA5692D00BB50E7 /* IdolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D21B652BA5692D00BB50E7 /* IdolTableViewCell.swift */; };
+		78D31ACC2BAABF7500E7F944 /* ImageSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D31ACB2BAABF7500E7F944 /* ImageSetting.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		782A38152B9C5926002BAF6F /* CompassMiddleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassMiddleView.swift; sourceTree = "<group>"; };
+		782A5F082BA189FD007934D5 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		782A5F0B2BA1905B007934D5 /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		782A5F0F2BA19A0F007934D5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		782A5F112BA19A33007934D5 /* StarLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarLocation.swift; sourceTree = "<group>"; };
+		782A5F132BA1A0BA007934D5 /* SettingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingImageView.swift; sourceTree = "<group>"; };
+		7853BBDA2B96F8C100DAF6BE /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		7853BBDC2B96F97600DAF6BE /* SettingsIdolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsIdolView.swift; sourceTree = "<group>"; };
+		7853BBDE2B96F9CF00DAF6BE /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
+		7853BBE02B96FB2A00DAF6BE /* IdolNameContaier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdolNameContaier.swift; sourceTree = "<group>"; };
+		7853BBE22B96FB7100DAF6BE /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		7853BBE62B96FC3200DAF6BE /* SettingsUnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsUnitView.swift; sourceTree = "<group>"; };
+		7853BBE82B96FC8000DAF6BE /* CompassTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassTopView.swift; sourceTree = "<group>"; };
+		7853BBEA2B96FCCE00DAF6BE /* CompassBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassBottomView.swift; sourceTree = "<group>"; };
+		7886066D2BA30A910027FE9D /* UnitSelectTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitSelectTitleView.swift; sourceTree = "<group>"; };
+		788D844D2BA2D82400A78EFA /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		788D844F2BA2E16C00A78EFA /* LocationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
+		788D84512BA2E19D00A78EFA /* CLLocation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extension.swift"; sourceTree = "<group>"; };
+		788D84532BA2E1CA00A78EFA /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
+		788D84552BA2E22100A78EFA /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		78A4DD7E2B96EE18002C2342 /* KdolCompass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KdolCompass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A4DD812B96EE18002C2342 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78A4DD832B96EE18002C2342 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		78A4DD852B96EE18002C2342 /* CompassController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassController.swift; sourceTree = "<group>"; };
+		78A4DD8A2B96EE19002C2342 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78A4DD8D2B96EE19002C2342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78A4DD8F2B96EE19002C2342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78BBCC072BA972E60071A6C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		78BBCC092BA973180071A6C0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		78BBCC0A2BA973460071A6C0 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		78BBCC0B2BA9736B0071A6C0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		78BBCC0C2BA973950071A6C0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		78BBCC0D2BA973DA0071A6C0 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		78BBCC0E2BA973F90071A6C0 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		78BBCC0F2BA9741A0071A6C0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		78BBCC102BA9743D0071A6C0 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		78BBCC112BA9746C0071A6C0 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		78BBCC122BA9748D0071A6C0 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		78BBCC132BA974AF0071A6C0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		78BBCC142BA974CD0071A6C0 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		78BBCC152BA974E30071A6C0 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		78BBCC172BA975390071A6C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78BBCC192BA975500071A6C0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		78BBCC1A2BA975630071A6C0 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		78BBCC1B2BA975770071A6C0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78BBCC1C2BA9758B0071A6C0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78BBCC1D2BA9759A0071A6C0 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78BBCC1E2BA975A60071A6C0 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78BBCC1F2BA975B90071A6C0 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78BBCC202BA975C80071A6C0 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78BBCC212BA975D50071A6C0 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		78BBCC222BA975E40071A6C0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78BBCC232BA975F10071A6C0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78BBCC242BA975FE0071A6C0 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78BBCC252BA9760B0071A6C0 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78BBCC262BA978100071A6C0 /* CompassInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassInfoController.swift; sourceTree = "<group>"; };
+		78BBCC282BA978220071A6C0 /* MapInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInfoController.swift; sourceTree = "<group>"; };
+		78D21B652BA5692D00BB50E7 /* IdolTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdolTableViewCell.swift; sourceTree = "<group>"; };
+		78D31ACB2BAABF7500E7F944 /* ImageSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSetting.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78A4DD7B2B96EE18002C2342 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		782A5F0A2BA18B26007934D5 /* For SettingsController */ = {
+			isa = PBXGroup;
+			children = (
+				7853BBDC2B96F97600DAF6BE /* SettingsIdolView.swift */,
+				782A5F132BA1A0BA007934D5 /* SettingImageView.swift */,
+				7853BBE62B96FC3200DAF6BE /* SettingsUnitView.swift */,
+				7886066D2BA30A910027FE9D /* UnitSelectTitleView.swift */,
+			);
+			path = "For SettingsController";
+			sourceTree = "<group>";
+		};
+		7879F3612BA03D3E00E9C9F8 /* For CompassController */ = {
+			isa = PBXGroup;
+			children = (
+				7853BBE82B96FC8000DAF6BE /* CompassTopView.swift */,
+				782A38152B9C5926002BAF6F /* CompassMiddleView.swift */,
+				7853BBEA2B96FCCE00DAF6BE /* CompassBottomView.swift */,
+				7853BBDE2B96F9CF00DAF6BE /* ProfileImageView.swift */,
+				7853BBE22B96FB7100DAF6BE /* CircularProgressView.swift */,
+			);
+			path = "For CompassController";
+			sourceTree = "<group>";
+		};
+		788D84572BA2E92200A78EFA /* For ListController */ = {
+			isa = PBXGroup;
+			children = (
+				78D21B652BA5692D00BB50E7 /* IdolTableViewCell.swift */,
+				7853BBE02B96FB2A00DAF6BE /* IdolNameContaier.swift */,
+			);
+			path = "For ListController";
+			sourceTree = "<group>";
+		};
+		78A4DD752B96EE18002C2342 = {
+			isa = PBXGroup;
+			children = (
+				78A4DD802B96EE18002C2342 /* KdolCompass */,
+				78A4DD7F2B96EE18002C2342 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78A4DD7F2B96EE18002C2342 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78A4DD7E2B96EE18002C2342 /* KdolCompass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78A4DD802B96EE18002C2342 /* KdolCompass */ = {
+			isa = PBXGroup;
+			children = (
+				78A4DD812B96EE18002C2342 /* AppDelegate.swift */,
+				78A4DD832B96EE18002C2342 /* SceneDelegate.swift */,
+				78A4DD952B96F270002C2342 /* Models */,
+				78A4DD962B96F278002C2342 /* Views */,
+				78A4DD972B96F283002C2342 /* Controllers */,
+				78A4DD8A2B96EE19002C2342 /* Assets.xcassets */,
+				78A4DD8C2B96EE19002C2342 /* LaunchScreen.storyboard */,
+				78A4DD8F2B96EE19002C2342 /* Info.plist */,
+				78BBCC062BA972E60071A6C0 /* Localizable.strings */,
+				78BBCC162BA975390071A6C0 /* InfoPlist.strings */,
+			);
+			path = KdolCompass;
+			sourceTree = "<group>";
+		};
+		78A4DD952B96F270002C2342 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7853BBDA2B96F8C100DAF6BE /* UIViewController+Extension.swift */,
+				782A5F0F2BA19A0F007934D5 /* Constants.swift */,
+				782A5F112BA19A33007934D5 /* StarLocation.swift */,
+				788D844F2BA2E16C00A78EFA /* LocationDelegate.swift */,
+				788D84512BA2E19D00A78EFA /* CLLocation+Extension.swift */,
+				788D84532BA2E1CA00A78EFA /* UserDefaults+Extensions.swift */,
+				788D84552BA2E22100A78EFA /* NetworkMonitor.swift */,
+				78D31ACB2BAABF7500E7F944 /* ImageSetting.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		78A4DD962B96F278002C2342 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7879F3612BA03D3E00E9C9F8 /* For CompassController */,
+				782A5F0A2BA18B26007934D5 /* For SettingsController */,
+				788D84572BA2E92200A78EFA /* For ListController */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		78A4DD972B96F283002C2342 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				78A4DD852B96EE18002C2342 /* CompassController.swift */,
+				782A5F082BA189FD007934D5 /* SettingsController.swift */,
+				782A5F0B2BA1905B007934D5 /* ListController.swift */,
+				788D844D2BA2D82400A78EFA /* MapController.swift */,
+				78BBCC262BA978100071A6C0 /* CompassInfoController.swift */,
+				78BBCC282BA978220071A6C0 /* MapInfoController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78A4DD7D2B96EE18002C2342 /* KdolCompass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A4DD922B96EE19002C2342 /* Build configuration list for PBXNativeTarget "KdolCompass" */;
+			buildPhases = (
+				78A4DD7A2B96EE18002C2342 /* Sources */,
+				78A4DD7B2B96EE18002C2342 /* Frameworks */,
+				78A4DD7C2B96EE18002C2342 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KdolCompass;
+			productName = KdolCompass;
+			productReference = 78A4DD7E2B96EE18002C2342 /* KdolCompass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78A4DD762B96EE18002C2342 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					78A4DD7D2B96EE18002C2342 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 78A4DD792B96EE18002C2342 /* Build configuration list for PBXProject "KdolCompass" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+				fr,
+				de,
+				ja,
+				ko,
+				es,
+				id,
+				it,
+				"pt-BR",
+				ru,
+				th,
+				vi,
+			);
+			mainGroup = 78A4DD752B96EE18002C2342;
+			productRefGroup = 78A4DD7F2B96EE18002C2342 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78A4DD7D2B96EE18002C2342 /* KdolCompass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78A4DD7C2B96EE18002C2342 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A4DD8E2B96EE19002C2342 /* LaunchScreen.storyboard in Resources */,
+				78BBCC182BA975390071A6C0 /* InfoPlist.strings in Resources */,
+				78BBCC082BA972E60071A6C0 /* Localizable.strings in Resources */,
+				78A4DD8B2B96EE19002C2342 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78A4DD7A2B96EE18002C2342 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7853BBDF2B96F9CF00DAF6BE /* ProfileImageView.swift in Sources */,
+				782A5F142BA1A0BA007934D5 /* SettingImageView.swift in Sources */,
+				782A5F102BA19A0F007934D5 /* Constants.swift in Sources */,
+				7853BBDB2B96F8C100DAF6BE /* UIViewController+Extension.swift in Sources */,
+				788D84522BA2E19D00A78EFA /* CLLocation+Extension.swift in Sources */,
+				7853BBE32B96FB7100DAF6BE /* CircularProgressView.swift in Sources */,
+				782A5F122BA19A33007934D5 /* StarLocation.swift in Sources */,
+				78A4DD862B96EE18002C2342 /* CompassController.swift in Sources */,
+				788D84542BA2E1CA00A78EFA /* UserDefaults+Extensions.swift in Sources */,
+				7886066E2BA30A910027FE9D /* UnitSelectTitleView.swift in Sources */,
+				78BBCC292BA978220071A6C0 /* MapInfoController.swift in Sources */,
+				7853BBEB2B96FCCE00DAF6BE /* CompassBottomView.swift in Sources */,
+				788D844E2BA2D82400A78EFA /* MapController.swift in Sources */,
+				78D21B662BA5692D00BB50E7 /* IdolTableViewCell.swift in Sources */,
+				788D84502BA2E16C00A78EFA /* LocationDelegate.swift in Sources */,
+				78BBCC272BA978100071A6C0 /* CompassInfoController.swift in Sources */,
+				7853BBE12B96FB2A00DAF6BE /* IdolNameContaier.swift in Sources */,
+				78A4DD822B96EE18002C2342 /* AppDelegate.swift in Sources */,
+				782A38162B9C5926002BAF6F /* CompassMiddleView.swift in Sources */,
+				78A4DD842B96EE18002C2342 /* SceneDelegate.swift in Sources */,
+				782A5F092BA189FD007934D5 /* SettingsController.swift in Sources */,
+				78D31ACC2BAABF7500E7F944 /* ImageSetting.swift in Sources */,
+				782A5F0C2BA1905B007934D5 /* ListController.swift in Sources */,
+				7853BBE72B96FC3200DAF6BE /* SettingsUnitView.swift in Sources */,
+				7853BBE92B96FC8000DAF6BE /* CompassTopView.swift in Sources */,
+				7853BBDD2B96F97600DAF6BE /* SettingsIdolView.swift in Sources */,
+				788D84562BA2E22100A78EFA /* NetworkMonitor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		78A4DD8C2B96EE19002C2342 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78A4DD8D2B96EE19002C2342 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		78BBCC062BA972E60071A6C0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78BBCC072BA972E60071A6C0 /* en */,
+				78BBCC092BA973180071A6C0 /* zh-Hans */,
+				78BBCC0A2BA973460071A6C0 /* zh-Hant */,
+				78BBCC0B2BA9736B0071A6C0 /* fr */,
+				78BBCC0C2BA973950071A6C0 /* de */,
+				78BBCC0D2BA973DA0071A6C0 /* ja */,
+				78BBCC0E2BA973F90071A6C0 /* ko */,
+				78BBCC0F2BA9741A0071A6C0 /* es */,
+				78BBCC102BA9743D0071A6C0 /* id */,
+				78BBCC112BA9746C0071A6C0 /* it */,
+				78BBCC122BA9748D0071A6C0 /* pt-BR */,
+				78BBCC132BA974AF0071A6C0 /* ru */,
+				78BBCC142BA974CD0071A6C0 /* th */,
+				78BBCC152BA974E30071A6C0 /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		78BBCC162BA975390071A6C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78BBCC172BA975390071A6C0 /* en */,
+				78BBCC192BA975500071A6C0 /* zh-Hans */,
+				78BBCC1A2BA975630071A6C0 /* zh-Hant */,
+				78BBCC1B2BA975770071A6C0 /* fr */,
+				78BBCC1C2BA9758B0071A6C0 /* de */,
+				78BBCC1D2BA9759A0071A6C0 /* id */,
+				78BBCC1E2BA975A60071A6C0 /* it */,
+				78BBCC1F2BA975B90071A6C0 /* ja */,
+				78BBCC202BA975C80071A6C0 /* ko */,
+				78BBCC212BA975D50071A6C0 /* pt-BR */,
+				78BBCC222BA975E40071A6C0 /* ru */,
+				78BBCC232BA975F10071A6C0 /* es */,
+				78BBCC242BA975FE0071A6C0 /* th */,
+				78BBCC252BA9760B0071A6C0 /* vi */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78A4DD902B96EE19002C2342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78A4DD912B96EE19002C2342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78A4DD932B96EE19002C2342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CBQJ6288DA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KdolCompass/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.KdolCompass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		78A4DD942B96EE19002C2342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CBQJ6288DA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KdolCompass/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.KdolCompass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78A4DD792B96EE18002C2342 /* Build configuration list for PBXProject "KdolCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A4DD902B96EE19002C2342 /* Debug */,
+				78A4DD912B96EE19002C2342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A4DD922B96EE19002C2342 /* Build configuration list for PBXNativeTarget "KdolCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A4DD932B96EE19002C2342 /* Debug */,
+				78A4DD942B96EE19002C2342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78A4DD762B96EE18002C2342 /* Project object */;
+}

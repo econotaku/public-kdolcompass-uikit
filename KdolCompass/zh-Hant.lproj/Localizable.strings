@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  KdolCompass
+
+  Created by ECONOTAKU on 3/19/24.
+  
+*/
+
+
+//SETTING
+"privacyPolicy" = "隱私政策";
+"removeAds" = "點按即可免費移除廣告";
+"watchVideoMessage" = "視頻廣告的一次觀看會移除橫幅廣告 24 小時。您想看視頻廣告嗎？";
+"plusVideoAd" = "再看一次視頻廣告會增加 24 小時讓橫幅消失。您想看視頻廣告嗎？";
+"noBannerUntil" = "No ads until ";
+
+//LIST
+"settingIdol" = "你想設定這個偶像嗎?";
+
+//MAP - info
+"info_0" = "用戶可以使用各種手勢移動相機，包括點擊、拖動和捏合。";
+"info_1" = "• 滾動 : 用一根或多根手指拖動地圖，相機跟隨這些手指移動。";
+"info_2" = "• 縮放 : 雙擊地圖，地圖縮放級別增加一級。兩指點按地圖，縮放級別降低一級。您還可以使用捏合、拉伸或單指縮放手勢來更改地圖的縮放級別。";
+"info_3" = "• 傾斜 : 用兩根手指向下或向上拖動地圖，改變地圖的傾斜角度。";
+"info_4" = "• 旋轉 : 用兩根手指旋轉地圖，地圖的方位角發生變化。";
+
+//MAP - uniqueness
+"uniqueness" = "所有公司出來的地圖的特徵。";
+"uniq_0" = "• HYBE 的子公司 PLEDIS 和 KOZ 與 HYBE 位於同一建築物內，因此僅顯示 HYBE。";
+"uniq_1" = "• 如果觸摸標記，則可以通過輸入名稱自行設置。";
+"uniq_2" = "• 我做了一個標記，上面寫著首爾，以防你想要的人不在名單上。標記位於景福宮的中心，觸摸標記設置您想要的人。";
+
+//MAP - all map alert
+"enterName" = "輸入要保存到此位置的名稱。";
+
+//SYSTEM
+"noInternet" = "無法運行，因為沒有互聯網連接。";
+
+//violation
+"violationMessage" = "我看過一次視頻廣告，看看它是否有效。開發者觀看視頻廣告違反了admob的規則。因此，廣告將在按鈕上指示的日期之後發布。";

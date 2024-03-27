@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  KdolCompass
+
+  Created by ECONOTAKU on 3/19/24.
+  
+*/
+
+
+//SETTING
+"privacyPolicy" = "Politique de confidentialité";
+"removeAds" = "supprimer les publicités (gratuit)";
+"watchVideoMessage" = "Une vue d'une annonce vidéo supprime la bannière publicitaire pendant 24 heures. Souhaitez-vous voir une annonce vidéo ?";
+"plusVideoAd" = "Regarder l'annonce vidéo une fois de plus ajoute 24 heures pour que la bannière disparaisse. Souhaitez-vous voir une publicité vidéo ?";
+"noBannerUntil" = "No ads until ";
+
+//LIST
+"settingIdol" = "Voulez-vous définir cette idole?";
+
+//MAP - info
+"info_0" = "Les utilisateurs peuvent déplacer la caméra avec divers gestes, notamment appuyer, faire glisser et pincer.";
+"info_1" = "• Défilement : faites glisser la carte avec un ou plusieurs doigts et la caméra se déplace en suivant ces doigts.";
+"info_2" = "• Zoom : double-tapez la carte et le niveau de zoom de la carte augmentée d'un niveau. Tapez la carte à deux doigts et le niveau du zoom diminue d'un niveau. Vous pouvez aussi utiliser des pinceaux, des étirements ou un zoom d'un doigt pour modifier le niveau de zoom de la carte.";
+"info_3" = "• Inclinaison : faites glisser la carte vers le bas ou vers le haut avec deux doigts, et l'angle d'inclinaison de la carte est modifié.";
+"info_4" = "• Rotation : faites pivoter la carte avec deux doigts et l'angle de relèvement de la carte est modifié.";
+
+//MAP - uniqueness
+"uniqueness" = "Les caractéristiques de la carte où toutes les entreprises sortent.";
+"uniq_0" = "• PLEDIS et KOZ, qui sont la filiale de HYBE, sont dans le même bâtiment que HYBE, donc seul HYBE est affiché.";
+"uniq_1" = "• Si vous touchez un marqueur, vous pouvez le définir vous-même en saisissant un nom.";
+"uniq_2" = "• J'ai fait un marqueur qui dit Séoul au cas où la personne que vous voulez n'est pas sur la liste. Le marqueur est situé au centre du palais de Gyeongbokgung, et touchez le marqueur pour définir la personne que vous voulez.";
+
+//MAP - all map alert
+"enterName" = "Saisissez un nom à enregistrer à cet emplacement.";
+
+//SYSTEM
+"noInternet" = "Impossible d'exécuter car il n'y a pas de connexion Internet.";
+
+//violation
+"violationMessage" = "J'ai regardé une annonce vidéo une fois pour voir si cela fonctionnait. Il était contraire aux règles d'admob pour les développeurs de regarder des publicités vidéo. L'annonce sera donc publiée après la date indiquée sur le bouton.";

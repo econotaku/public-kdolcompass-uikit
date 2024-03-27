@@ -1,0 +1,46 @@
+/* 
+  Localizable.strings
+  KdolCompass
+
+  Created by ECONOTAKU on 3/19/24.
+  
+*/
+
+
+//SETTING
+"privacyPolicy" = "Privacy Policy";
+"removeAds" = "Tap to remove ads for free";
+"watchVideoMessage" = "One view of a video ad removes the banner ad for 24 hours. Would you like to see a video ad?";
+"plusVideoAd" = "Watching the video ad one more time adds 24 hours of invisibility to the banner ad. Would you like to see a video ad?";
+"noBannerUntil" = "No ads until ";
+
+//LIST
+"settingIdol" = "Do you want to set this idol?";
+
+//MAP - info
+"info_0" = "Users can move the camera with various gestures including tap, drag and pinch.";
+"info_1" = "• Scroll : Drag the map with one or more fingers, and the camera moves following those fingers.";
+"info_2" = "• Zoom : Double-tap the map, and the map’s zoom level increases by one level. Two-finger tap the map, and the zoom level decreases by one level. You can also use pinch, stretch, or one-finger zoom gesture to change the map’s zoom level.";
+"info_3" = "• Tilt : Drag down or up the map with two fingers, and the map’s tilt angle is changed.";
+"info_4" = "• Rotation : Rotate the map with two fingers, and the map’s bearing angle is changed.";
+
+//MAP - uniqueness
+"uniqueness" = "The characteristics of the map where all companies come out.";
+"uniq_0" = "• PLEDIS and KOZ, which are HYBE Labels, are in the same building as HYBE, so only HYBE is displayed.";
+"uniq_1" = "• If you touch a marker, you can set it yourself by entering a name.";
+"uniq_2" = "• I made a marker that says Seoul in case the person you want is not on the list. The marker is located in the center of Gyeongbokgung Palace, and touch the marker to set the person you want.";
+
+//MAP - all map alert
+"enterName" = "Enter a name to save to this location.";
+
+//SYSTEM
+"noInternet" = "Cannot run because there is no internet connection.";
+
+//violation
+"violationMessage" = "I watched a video ad once to see if it worked. It was against the rules of admob for developers to watch video ads. So the ad will be posted after the date indicated on the button.";
+
+//CompassInfo
+"description_01" = "아이돌 설정을 변경해도 나침반의 원이 가리키는 방향이 달라지지 않을 수 있습니다.";
+"description_02" = "위의 이미지를 보면 소방관에게는 A와 B간의 각이 90도가 됩니다. 그보다 멀리 있는 경찰에게는 A와 B간의 각이 90도보다 훨씬 작아집니다. 거리가 멀어질 수록 두 지점간의 각이 줄어듭니다.";
+"description_03" = "소속사는 모두 서울에 있습니다. 그리고 서울이란 도시의 최대 너비는 약 30km(약 18.6 mile) 정도 됩니다. 아주 먼 거리에서는 나침반의 1도 안에 서울이 전부 들어갑니다.";
+"description_04" = "해외 이용자들의 경우 설정 변경에 따른 나침반 방향의 변화가 별로 크지 않을 것입니다. 지도를 보면 알겠지만 소속사들 사이의 거리가 가까운 경우가 많기 때문입니다.";

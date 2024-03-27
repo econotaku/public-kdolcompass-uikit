@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  KdolCompass
+
+  Created by ECONOTAKU on 3/19/24.
+  
+*/
+
+
+//SETTING
+"privacyPolicy" = "Datenschutz-Bestimmungen";
+"removeAds" = "Werbung kostenlos entfernen";
+"watchVideoMessage" = "Beim Ansehen von Videoanzeigen werden Banneranzeigen 24 Stunden lang entfernt. Möchten Sie eine Videoanzeige sehen?";
+"plusVideoAd" = "Wenn Sie sich die Videoanzeige noch einmal ansehen, werden 24 Stunden unsichtbare Bannerzeit hinzugefügt. Möchten Sie eine Videoanzeige sehen?";
+"noBannerUntil" = "No ads until ";
+
+//LIST
+"settingIdol" = "Wollen Sie dieses Idol setzen?";
+
+//MAP - info
+"info_0" = "Die Kamera kann mit verschiedenen Gesten bewegt werden, darunter Tappe, Drag und Pitch.";
+"info_1" = "• Scroll : Ziehen Sie die Karte mit einem oder mehreren Fingern, und die Kamera bewegt sich nach diesen Fingern.";
+"info_2" = "• Zoom : Doppeltappe auf die Karte, und die Zoomebene der Karte steigt um ein Level. Zweifinger tappe Sie die Karte, und der Zoom-Level sinkt um ein Level. Sie können auch Stretch oder eine Zeigezoom- Geste verwenden, um die Zoomebene der Karte zu ändern.";
+"info_3" = "• Neigung : Ziehen Sie die Karte mit zwei Fingern herunter oder hoch, und der Neigungwinkel der Karte wird geändert.";
+"info_4" = "• Rotation : Drehen Sie die Karte mit zwei Fingern und der Ladewinkel der Karte wird geändert.";
+
+//MAP - uniqueness
+"uniqueness" = "Die Merkmale der Karte, auf der alle Unternehmen hervorgehen.";
+"uniq_0" = "• PLEDIS und KOZ, die HYBE-Labels sind, befinden sich im selben Gebäude wie HYBE, daher wird nur HYBE angezeigt.";
+"uniq_1" = "• Wenn Sie einen Marker berühren, können Sie ihn durch Eingabe eines Namens selbst setzen.";
+"uniq_2" = "• Ich habe eine Markierung mit der Aufschrift Seoul gemacht, falls die gewünschte Person nicht auf der Liste steht. Die Markierung befindet sich in der Mitte des Gyeongbokgung-Palastes. Berühren Sie die Markierung, um die gewünschte Person festzulegen.";
+
+//MAP - all map alert
+"enterName" = "Geben Sie einen Namen ein, um an diesem Ort zu speichern.";
+
+//SYSTEM
+"noInternet" = "Kann nicht ausgeführt werden, da keine Internetverbindung besteht.";
+
+//violation
+"violationMessage" = "Ich habe mir einmal eine Videoanzeige angesehen, um zu sehen, ob sie funktioniert. Es verstieß für Entwickler gegen die Admob-Regeln, Videoanzeigen anzusehen. Die Anzeige wird also nach dem auf der Schaltfläche angegebenen Datum geschaltet.";
