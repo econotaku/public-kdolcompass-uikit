@@ -10,18 +10,6 @@ import Foundation
 
 struct Constants {
   
-  //광고 관련
-  struct GoogleAds {
-    static let testUnitId = "ca-app-pub-3940256099942544/2934735716"
-    
-    static let rewardTestUnitId = "ca-app-pub-3940256099942544/1712485313"
-    
-    static let realId = "ca-app-pub-6670235631388325/4669500109"
-    
-    static let realRewardId = "ca-app-pub-6670235631388325/9330400464"
-    
-  }
-
   static var km: Bool = true
   
   //HYBE
